@@ -1,0 +1,10 @@
+/home/oyvind/Documents/software/clion-2019.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/oyvind/repos/soundweb-serial
+CMake Error at cmake/ArduinoToolchain.cmake:83 (message):
+  Could not find Arduino SDK (set ARDUINO_SDK_PATH)!
+Call Stack (most recent call first):
+  /home/oyvind/Documents/software/clion-2019.2.5/bin/cmake/linux/share/cmake-3.15/Modules/CMakeDetermineSystem.cmake:93 (include)
+  CMakeLists.txt:8 (project)
+
+
+CMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.
+-- Configuring incomplete, errors occurred!
